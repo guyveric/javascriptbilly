@@ -51,7 +51,7 @@ console.log(favouriteWebsites);
 
 favouriteWebsites.shift();
 console.log(favouriteWebsites);
-//.shift removed the first item in the array "www.google.com"
+//.shift removed the first item in the array "www.google.com" and reduces the size of the array
 
 //.unshift adds an item to the beginning of thr array
 
