@@ -46,7 +46,7 @@ let favouriteWebsites = [
     "www.google.com",
     "www.1337x.to",
     "www.botb.com"
-]
+];
 console.log(favouriteWebsites);
 
 favouriteWebsites.shift();

@@ -64,7 +64,7 @@ let accPin = 1234;
 
 const cashMachine = (pinNum, cash) => {
     if (pinNum == accPin && cash <= accBal) {
-        console.log(`Your PIN is correct and the ${cash} you requested is being dispensed!`)    
+        console.log(`Your PIN is correct and the ${cash} you requested is being dispensed!`);    
     } else if (pinNum != accPin) {
         console.log(`PIN number is incorrect!. Please try again.`);
     } else {
