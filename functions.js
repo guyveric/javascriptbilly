@@ -120,7 +120,7 @@ ticTacToe("X", "O", "X", "X", "O", "O", "O", "X", "X")
 // Moodle Challenge(2)
 
 const paraConvertToString = (number) => {
-    console.log(number.toString(""));
+    console.log(number.toString());
 }
 
 paraConvertToString(25)
