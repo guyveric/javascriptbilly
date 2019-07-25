@@ -76,7 +76,7 @@ cashMachine(1234, 300);
 cashMachine(1235, 300);
 cashMachine(1234, 410);
 cashMachine(1235, 500);
-*/
+
 
 // Activity 3
 
@@ -91,5 +91,36 @@ const takeOrder = (topping, topping2, topping3, topping4, topping5) => {
 takeOrder("Chicken", "Cheese", "Lettuce", "Tomatoes", "Cucumber");
 takeOrder("Beef", "Onions", "Tomatoes", "Lettuce", "Mayonnaise"); 
 takeOrder("Ham", "Lettuce", "Cheese", "Cucumber", "Pickle");
-    
 
+
+// Moodle Challenge (1)
+
+// A function that can hold data for 9 parameters & draws the tic tac toe game board using console.log. 
+// When the ticTacToe function is called and the values to the parameters declared. 
+// The parameters will be logged to the game board
+const ticTacToe = (space1, space2, space3, space4, space5, space6, space7, space8, space9) => {
+    console.log("      |       |       ");
+    console.log(`   ${space1}  |   ${space2}   |   ${space3}    `);
+    console.log("      |       |       ");
+    console.log("- - - - - - - - - - -");
+    console.log("      |       |       ");
+    console.log(`   ${space4}  |   ${space5}   |   ${space6}    `);
+    console.log("      |       |       ");
+    console.log("- - - - - - - - - - -");
+    console.log("      |       |       ");
+    console.log(`   ${space7}  |   ${space8}   |   ${space9}    `);
+    console.log("      |       |       ");
+
+}
+
+ticTacToe("X", "O", "X", "X", "O", "O", "O", "X", "X")
+
+*/ 
+
+// Moodle Challenge(2)
+
+const paraConvertToString = (number) => {
+    console.log(number.toString(""));
+}
+
+paraConvertToString(25)

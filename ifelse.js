@@ -65,12 +65,20 @@ else if (num % 5 == 0) {
 else {
     console.log(num);
 }
-*/
-//Moodle Challenge 1
 
-let num = 12345
-let revNum = num.split()
-console.log(revNum)
+//Moodle Challenge 1
+// A function that checks if a string is a palindrome when called; 
+//if it is then 'true' is logged to the console and if it is not then 'false' is logged to the console
+const palindrome = (palStr) => {
+    let reverseSTR = palStr.split('').reverse().join('');
+    if (reverseSTR === palStr) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}
+
+palindrome("10101")
 
 /*
 //Moodle Challenge 2

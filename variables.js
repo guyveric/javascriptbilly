@@ -25,6 +25,7 @@ console.log(`Hi, my name is ${usersName}, I am ${usersAge} years old and my favo
 // creates a string using multiple variables
 */
 
+// Multiple variables which hold the string its been assigned, which can be called.
 let space1 = "X";
 let space2 = "O";
 let space3 = " ";
@@ -35,7 +36,8 @@ let space7 = "O";
 let space8 = " ";
 let space9 = " ";
 
-
+// Using multiple console.log lines of code, each with different strings and some
+// which include variables to log a grid to the console for 'O's and 'X's
 console.log("      |       |       ");
 console.log(`   ${space1}  |   ${space2}   |   ${space3}    `);
 console.log("      |       |       ");

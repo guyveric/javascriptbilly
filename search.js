@@ -1,16 +1,11 @@
-let str = "javascriptCoding";
 //variable created to take input from a string
+let str = "javascriptCoding";
+
+//variable created which can be edited for any character or string to search for
 let alpha1 = "j";
-let alpha2 = "p";
-let alpha3 = "o";
-let alpha4 = "C";
-let alpha5 = "s";
-let alpha6 = "b";
-//variables to take a regular expressions
+
+//variable to take a regular expression and log the result to console
 console.log(str.search(alpha1)); 
-console.log(str.search(alpha2));
-console.log(str.search(alpha3));
-console.log(str.search(alpha4));
-console.log(str.search(alpha5));
-console.log(str.search(alpha6));
-//logging the index of matching alphabets
+
+//The console will display the position of where the character or string is in the original string. 
+//index starts at 0. If the character or string doesn't exist the console will display -1. 

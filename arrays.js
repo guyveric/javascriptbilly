@@ -35,7 +35,7 @@ console.log(favouriteWebsites);
 
 favouriteWebsites.pop();
 console.log(favouriteWebsites);
-*/
+
 
 //Activity 2
 
@@ -67,3 +67,6 @@ console.log(socialMedia);
 //.splice can insert, remove and replace elements in an array
 favouriteWebsites.splice(1, 1);//.splice removed www.1337x.to from the array
 console.log(favouriteWebsites);
+*/
+
+
